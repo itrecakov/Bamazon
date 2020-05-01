@@ -28,7 +28,7 @@ function displayInventory() {
         "price",
         "stock_quantity",
       ],
-      colWidths: [10, 25, 25, 10, 14],
+      colWidths: [10, 25, 25, 10, 20],
     });
     for (i = 0; i < res.length; i++) {
       theDisplayTable.push([
